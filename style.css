@@ -1,0 +1,42 @@
+
+
+:root {
+    --cor-principal: #043369;
+    --cor-secundaria: #021e3f;
+    --cor-destaque: #320142;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
+div {
+  background-color: #e3b3fa; /* Define a cor de fundo */
+}
+
+div{
+border: 30px solid transparent;
+font-size: 15px;
+}
+
+div {
+ border: 1px solid black;    /* Borda fina e preta */
+}
